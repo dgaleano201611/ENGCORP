@@ -1,0 +1,66 @@
+:root {
+  --font: 'Roboto', sans-serif;
+  --primary-color: #1e283a;
+  --secondary-color: #2d394b;
+  --white-color: #ffffff;
+  --black-color: #1e283a;
+  --red-color: #e4012e;
+  --gray-color-text: #8595a2;
+
+}
+.hero-container{
+  height: 80vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  object-fit: contain;
+}
+
+video{
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+.hero-text{
+  width: 100%;
+  height: 20%;
+  position: absolute;
+  top: 150px;
+  text-align: center;
+  background-color: rgba(225, 226, 228, 0.68);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-text h1{
+  font-size: 200%;
+  color: var(--primary-color);
+}
+.hero-text p{
+  font-size: 150%;
+  color: var(--primary-color);
+}
+
+@media screen and (min-width:765px){
+  .hero-container{
+    height: 85.5vh;
+  }
+  .hero-text{
+    width: 80%;
+    height: 30%;
+    top: inherit;
+    bottom: 0;
+    align-items: center;
+    justify-content: center;
+  }
+  .hero-text h1{
+    font-size: 50px;
+  }
+  .hero-text p{
+    font-size: 30px;
+  }
+}

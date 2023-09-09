@@ -1,0 +1,32 @@
+:root {
+  --font: 'Roboto', sans-serif;
+  --primary-color: #1e283a;
+  --secondary-color: #2d394b;
+  --white-color: #ffffff;
+  --black-color: #1e283a;
+  --red-color: #e4012e;
+  --gray-color-text: #8595a2;
+
+}
+html{
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+*,
+*::after,
+*::before{
+  box-sizing: inherit;
+}
+body {
+  margin: 0;
+  overflow-x: hidden;
+  font-family: var(--font);
+}
+h1, h2, h3, h4, p{
+  margin: 0;
+}
