@@ -7,6 +7,7 @@ import { useLocation } from 'react-router-dom'
 import NavTop from './NavTop'
 import {GiHamburgerMenu} from 'react-icons/gi'
 import {AiOutlineClose} from 'react-icons/ai'
+import ise from '../../assets/logocorte.jpg'
 
 const Navbar = () => {
   const [validerPath, setValiderPath] = useState(false)
@@ -34,14 +35,24 @@ const Navbar = () => {
     }
   }
   
+  document.addEventListener("click", (e) => {
+    if(menuRef.current.styles.display === "block"){
+      menuRef.current.style.display = "none";
+      hamRef.current.style.display = "block"
+      closeRef.current.style.display = "none"
+    }
+
+
+  })
+
   return (
     validerPath&&(
       <>
       <NavTop/>
       <section className='navbar'>
         <Link  to="/" className='navbar-logo'>
-          <FcEngineering className='logo'/>
-          <p><span>ENG</span>ALEJO</p>
+          <img src={ise} alt="ese" className='logo'/>
+          
         </Link>
         <button onClick={handleToggleMenu} className='menu-btn'>
           <div ref={hamRef} style={{ display: "block" }}>

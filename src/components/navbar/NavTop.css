@@ -16,30 +16,30 @@ a{
   width: 100%;
   height: auto;
   text-align: center;
-  background-color: var(--black-color);
+  background-color: #EB7C15;
   padding: 5px;
 }
 .icons-social-media{
   width: 20px;
   height: 20px;
-  color: var(--white-color);
+  color: #1E283A;
 }
 .span-text{
   font-size: 12px;
-  color: var(--white-color);
+  color: #1E283A;
 }
 .nav-top-location{
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 5px;
-  color: var(--white-color);
+  color: #1E283A;
 }
 
 .icon-location{
   width: 18px;
   height: 18px;
-  fill: var(--white-color);
+  fill: #1E283A;
 }
 .nav-top-contact{
   display: flex;

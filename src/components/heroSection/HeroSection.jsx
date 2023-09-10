@@ -8,8 +8,8 @@ const HeroSection = () => {
     <section className='hero-container'>
       <video src={heroVideo} autoPlay loop muted /> 
       <div className='hero-text'>
-          <h1>ENVIRONMENT</h1>
-          <p>FRIENDLY ENERGY SOLUTIONS</p>
+          <h1>Ingeniería y Soluciones</h1>
+          <p>Energéticas SAS</p>
       </div>
     </section>
     </>
