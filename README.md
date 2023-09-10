@@ -5,4 +5,4 @@ Proyecto académico para mejorar habilidades en tecnologías frontent
 
 ## Proyecto
 
-- [website eng-electric](https://engcorp-git-gh-pages-dgaleano201611.vercel.app/programs)
+- [website eng-electric](https://engcorp.vercel.app/)
