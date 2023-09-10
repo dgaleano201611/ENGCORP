@@ -1,5 +1,4 @@
 import './Navbar.css'
-import {FcEngineering} from 'react-icons/fc'
 import React from 'react'
 import {Link} from 'react-router-dom'
 import { useState, useEffect, useRef } from 'react'
@@ -35,16 +34,6 @@ const Navbar = () => {
     }
   }
   
-  document.addEventListener("click", (e) => {
-    if(menuRef.current.styles.display === "block"){
-      menuRef.current.style.display = "none";
-      hamRef.current.style.display = "block"
-      closeRef.current.style.display = "none"
-    }
-
-
-  })
-
   return (
     validerPath&&(
       <>
@@ -62,13 +51,13 @@ const Navbar = () => {
             <AiOutlineClose className='menu-icon'/>
           </div>
         </button>
-        <nav ref={menuRef} style={{display:"none"}} className="navbar-content">
-          <Link to="/" className='link' >Home</Link>
-          <Link to="/about" className='link'>About</Link>
-          <Link to="/programs" className='link'>Programs</Link>
-          <Link to="/solution" className='link'>Solution</Link>
-          <Link to="/current-projects" className='link'>Currrent Projects</Link>
-          <Link to="/contacts" className='link'>Contacts</Link>
+        <nav ref={menuRef} style={{display: validerPath?"none":"block"}} className="navbar-content">
+          <Link onClick={handleToggleMenu} to="/" className='link' >Home</Link>
+          <Link onClick={handleToggleMenu} to="/about" className='link'>About</Link>
+          <Link onClick={handleToggleMenu} to="/programs" className='link'>Programs</Link>
+          <Link onClick={handleToggleMenu} to="/solution" className='link'>Solution</Link>
+          <Link onClick={handleToggleMenu} to="/current-projects" className='link'>Currrent Projects</Link>
+          <Link onClick={handleToggleMenu} to="/contacts" className='link'>Contacts</Link>
         </nav>
       </section>
       </>
