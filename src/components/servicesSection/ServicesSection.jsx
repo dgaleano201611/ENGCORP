@@ -1,7 +1,7 @@
 import React from 'react'
-import sevices1 from '../../assets/services1.jpg'
+import sevices1 from '../../assets/imagen1.png'
 import services2 from '../../assets/services2.jpg'
-import services3 from '../../assets/services3.jpg'
+import services3 from '../../assets/imagen3.png'
 import './ServicesSection.css'
 import { Link } from 'react-router-dom'
 
@@ -19,7 +19,9 @@ const ServicesSection = () => {
         <img src={services3} alt="home"/>
       </aside>
       <aside className="services-information">
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore.</p>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore. 
+        </p>
         <Link to="/programs">
           <button>Saber mas</button>
         </Link>

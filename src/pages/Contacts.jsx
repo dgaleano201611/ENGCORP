@@ -1,5 +1,4 @@
 import React, {useState} from 'react'
-import ContactForm from '../components/ContactForm'
 
 
 const Contacts = () => {
@@ -16,6 +15,7 @@ const Contacts = () => {
 
   return (
     <>
+    <div>formulario contactame</div>
       {/*<form onSubmit={handleSubmit}>
         <label htmlFor="nombre">Nombre</label>
         <input 
@@ -66,7 +66,7 @@ const Contacts = () => {
         <input type="submit" value="enviar formulario" />
       </form>
   <br />*/}
-      <ContactForm/>
+      
 
 
     
