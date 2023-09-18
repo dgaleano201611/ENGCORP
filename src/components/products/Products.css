@@ -1,0 +1,75 @@
+.card-section{
+  background-color: #f2f2f2;
+  padding: 40px 0;
+  margin-top: 50px;
+}
+.section-proyect-title{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.section-proyect-title h2{
+  font-size: 50px;
+  font-weight: bold;
+  color: #EB7C15;
+  margin-bottom: -20px;
+}
+.section-proyect-title h3{
+  font-size: 40px;
+  font-weight: bold;
+  color: #6E6F73;
+  margin-left: 70px;
+}
+
+.card-content{
+  border: none;
+}
+
+.product-card{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+  gap: 20px;
+  margin-bottom: 40px;
+
+}
+.card-image{
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+}
+
+.card-info{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+  padding-bottom: 0;
+}
+.card-info__title{
+  color: #1e1e1e;
+}
+
+.card-info__text{
+  color: #cbc8c8;
+}
+.paragraf-a{
+  color: black;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  margin: 20px;
+  font-weight: bold;
+}
+
+.ver-todos__icon{
+  color: black;
+  text-align: center;
+  font-weight: bold;
+}

@@ -1,18 +1,6 @@
-import React, {useState} from 'react'
-
-
 const Contacts = () => {
-  const [nombre, setNombre] = useState("")
-  const [superhero, setSuperhero] = useState("superman")
-  const [lenguaje, setLenguaje] = useState("")
-  const [terminos, setTerminos] = useState(false)
+ 
   
-  const handleSubmit = (e) => {
-    e.preventDefault()
-    alert("El formulario se ha enviado")
-  }
-
-
   return (
     <>
     <div>formulario contactame</div>

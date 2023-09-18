@@ -3,6 +3,7 @@ import HeroSection from '../components/heroSection/HeroSection'
 import '../styles/Home.css'
 import ServicesSection from '../components/servicesSection/ServicesSection'
 import ContactTarget from '../components/contactUs/ContactTarget'
+import Products from '../components/products/Products'
 
 
 const Home = () => {
@@ -10,6 +11,7 @@ const Home = () => {
     <>
       <HeroSection/>
       <ServicesSection/>
+      <Products/>
       <ContactTarget/>
     </>
   )
