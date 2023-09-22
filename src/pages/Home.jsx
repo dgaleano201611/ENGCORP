@@ -4,6 +4,7 @@ import '../styles/Home.css'
 import ServicesSection from '../components/servicesSection/ServicesSection'
 import ContactTarget from '../components/contactUs/ContactTarget'
 import Products from '../components/products/Products'
+import Footer from '../components/footer/Footer'
 
 
 const Home = () => {
@@ -13,6 +14,7 @@ const Home = () => {
       <ServicesSection/>
       <Products/>
       <ContactTarget/>
+      <Footer/>
     </>
   )
 }

@@ -1,0 +1,77 @@
+:root{
+  --text-color: #1E283A;
+}
+
+body {
+  color: var(--text-color);
+}
+
+.footer-section{
+  width: 100%;
+  height: auto;
+  background-color: #EB7C15;
+  text-align: center;
+}
+
+.logo-and-icons{
+  padding: 20px;
+}
+.logo-and-icons img{
+  width: 50px;
+}
+
+.social-icons{
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+  margin: 10px;
+}
+
+.icons-social-media2{
+ font-size: 30px;
+ fill: var(--text-color);
+}
+.icons-social-media2:hover{
+  fill: white;
+}
+
+.section-contact h3{
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+.section-contact p{
+  font-size: 14px;
+}
+
+.section-pages{
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+}
+
+.section-pages h3{
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.links-footer{
+  color: var(--text-color);
+}
+
+.links-footer:hover{
+  color: white;
+}
+
+@media screen and (min-width:750px){
+  .footer-content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .section-pages{
+    margin-top: 40px;
+  }
+}
