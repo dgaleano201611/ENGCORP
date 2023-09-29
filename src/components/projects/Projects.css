@@ -1,0 +1,5 @@
+.card-projects__all{
+  display: flex;
+  flex-direction: row;
+  color: red;
+}
